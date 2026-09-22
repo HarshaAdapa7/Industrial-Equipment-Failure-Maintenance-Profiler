@@ -1,0 +1,18 @@
+# Secret environment variables
+.env
+
+# Python Bytecode & Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.pytest_cache/
+
+# Node modules & build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# SQLite local databases
+*.db
